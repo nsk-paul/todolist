@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import TodoForm from './TodoForm'
 import Todo from './Todo';
+import Testing from './Testing';
 
 //inside this jsx, it is the main of this project
 //it include serveral functions that include in the todolist
@@ -61,6 +62,7 @@ function TodoList() {
             removeTodo={removeTodo}
             updateTodo={updateTodo}
             />
+            <Testing/>
         </div>
     )
 }
